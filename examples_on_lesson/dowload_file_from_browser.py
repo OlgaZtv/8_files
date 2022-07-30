@@ -10,7 +10,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 options = webdriver.ChromeOptions()
 prefs = {
-    "download.default_directory": os.path.join(current_dir, 'tmp'),
+    "download.default_directory": os.path.join(current_dir, '../tmp'),
     "download.prompt_for_download": False
 }
 options.add_experimental_option("prefs", prefs)
